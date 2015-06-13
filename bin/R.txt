@@ -127,8 +127,8 @@ int color abc_search_url_text_selected 0x7f070001
 int color alizarin 0x7f070034
 int color amethyst 0x7f070029
 int color asbestos 0x7f070039
-int color background_color 0x7f070009
 int color belizehole 0x7f07002d
+int color bg_color 0x7f070009
 int color black 0x7f070008
 int color blue 0x7f070006
 int color brown 0x7f070021
@@ -296,8 +296,9 @@ int drawable forward 0x7f02005c
 int drawable home 0x7f02005d
 int drawable image 0x7f02005e
 int drawable pdf 0x7f02005f
-int drawable txt 0x7f020060
-int drawable unknown 0x7f020061
+int drawable tick 0x7f020060
+int drawable txt 0x7f020061
+int drawable unknown 0x7f020062
 int id action_bar 0x7f05001c
 int id action_bar_activity_content 0x7f050015
 int id action_bar_container 0x7f05001b

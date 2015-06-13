@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="60dp"
     android:orientation="horizontal"
+    android:layout_margin="4dp"
     android:background="@drawable/button1"
      >
-
     <View
         android:id="@+id/image"
         android:layout_width="50dp"
@@ -13,16 +13,22 @@
         android:background="@drawable/folder"
         android:layout_margin="5dp"
          />
-
+	<View
+	    android:layout_margin="5dp" 
+	    android:layout_width="20dp"
+        android:layout_height="20dp"
+        />
+    
     <TextView
+        android:layout_toRightOf="@+id/image"
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:singleLine="true"
-        android:layout_height="match_parent"
-        android:textColor="#000000"
-        android:gravity="left|center_vertical"
-        android:padding="5dp"
-        android:textSize="19dp"
+        android:layout_height="50dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="5dp"
+        android:paddingTop="15dp"
+        android:textSize="19sp"
          />
 
-</LinearLayout>
+</RelativeLayout>

@@ -865,10 +865,10 @@ containing a value of this type.
         public static final int alizarin=0x7f070034;
         public static final int amethyst=0x7f070029;
         public static final int asbestos=0x7f070039;
+        public static final int belizehole=0x7f07002d;
         /** application specific colors 
          */
-        public static final int background_color=0x7f070009;
-        public static final int belizehole=0x7f07002d;
+        public static final int bg_color=0x7f070009;
         public static final int black=0x7f070008;
         public static final int blue=0x7f070006;
         public static final int brown=0x7f070021;
@@ -1140,8 +1140,9 @@ containing a value of this type.
         public static final int home=0x7f02005d;
         public static final int image=0x7f02005e;
         public static final int pdf=0x7f02005f;
-        public static final int txt=0x7f020060;
-        public static final int unknown=0x7f020061;
+        public static final int tick=0x7f020060;
+        public static final int txt=0x7f020061;
+        public static final int unknown=0x7f020062;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;

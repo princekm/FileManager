@@ -3,15 +3,14 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
->
+    android:background="@color/white" >
+
     <LinearLayout
         android:id="@+id/file_chooser"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical"
-         >
+        android:orientation="vertical" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,7 +18,7 @@
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
             android:layout_marginTop="5dp"
-            android:background="@color/white"
+            android:background="#ecf0f1"
             android:orientation="horizontal" >
 
             <Button
@@ -46,6 +45,13 @@
                 android:gravity="left" />
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/asbestos" />
+
         <TextView
             android:id="@+id/file_path"
             android:layout_width="match_parent"
@@ -53,21 +59,38 @@
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
             android:layout_marginTop="4dp"
-            android:singleLine="true"
-            android:background="@color/white"
+            android:background="#ecf0f1"
             android:padding="5dp"
+            android:singleLine="true"
             android:text="PATH"
             android:textColor="@color/black"
             android:textSize="18dp" />
-        <ListView
-     android:layout_width="match_parent"
-            android:id="@+id/list"
-            android:layout_height="0dp"
-            android:layout_weight="75"
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/asbestos" />
+<RelativeLayout 
+    
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:background="@color/asbestos"
             android:layout_margin="4dp"
-            android:background="@color/white">
+    >
+    
+        <ListView
+           android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="75"
+            android:background="@color/white"
+            android:divider="@color/asbestos"
+            android:dividerHeight="1dp">
         </ListView>
-            
-            </LinearLayout>
+</RelativeLayout>
+    </LinearLayout>
 
 </RelativeLayout>

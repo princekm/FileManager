@@ -51,7 +51,7 @@ public class CustomAdapter extends ArrayAdapter  {
 		    	case TXT:imageView.setBackgroundResource(R.drawable.txt);break;
 		    	case PDF:imageView.setBackgroundResource(R.drawable.pdf);break;
 		    	case AUDIO:imageView.setBackgroundResource(R.drawable.audio);break;
-		    	case VIDEO:	imageView.setBackgroundResource(R.drawable.pdf);break;
+		    	case VIDEO:	imageView.setBackgroundResource(R.drawable.audio);break;
 		    	case APK:
 		    		String APKFilePath = files[position].toString(); //For example...
 		    	     PackageManager pm = parent.getContext().getPackageManager();
